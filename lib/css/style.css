@@ -75,6 +75,10 @@ h1, h2, h3, p {
 	align-items: center;
 }
 
+.quick-button:hover {
+    transform: scale(1.2);
+}
+
 .quick-button a {
 	display: flex;
 	justify-content: center;
@@ -85,6 +89,10 @@ h1, h2, h3, p {
 	font-size: 1.6rem;
 	background-color: #ffffff;
 	margin-bottom: 5px;
+}
+
+.quick-button p {
+    font-weight: 250;
 }
 
 .download-icon {
@@ -200,7 +208,7 @@ h1, h2, h3, p {
 
 .page5-icon {
 	width: 20vw;
-	font-size: 6rem;
+	font-size: 5rem;
 	display: flex;
 	justify-content: center;
 }
